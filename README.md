@@ -37,5 +37,5 @@ These are the questions that I came up with for the analysis.
   
 Below is the Tableau file that I have made:
 
-![](images/667571CE-9548-4C31-B6FB-900B07F32772.jpeg)
+![](667571CE-9548-4C31-B6FB-900B07F32772.jpeg)
 
