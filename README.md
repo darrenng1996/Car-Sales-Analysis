@@ -9,30 +9,30 @@ These are the questions that I came up with for the analysis.
 3) Which model in Mercedes-B manufacture has the most resale value?
 4) Which type of vehicle(Passenger/Car) sell the most?
 
-1)MySql code:
+1)MySql code:  
 
-  Select Manufacturer, sum(Sales_in_thousands)
-  from car.car_sales
-  group by Manufacturer
+  Select Manufacturer, sum(Sales_in_thousands)  
+  from car.car_sales  
+  group by Manufacturer  
   
-2)MySql code:
+2)MySql code:  
 
-  Select Model, Sales_in_thousands from car.car_sales
-  where Manufacturer = 'Ford'
-  order by Sales_in_thousands
+  Select Model, Sales_in_thousands from car.car_sales  
+  where Manufacturer = 'Ford'  
+  order by Sales_in_thousands  
 
-3)MySql code:
+3)MySql code:  
 
-  select model, max(__year_resale_value)
-  from car.car_sales
-  where Manufacturer = 'Mercedes-B'
-  group by model
+  select model, max(__year_resale_value)  
+  from car.car_sales  
+  where Manufacturer = 'Mercedes-B'  
+  group by model  
   
-4)MySql code:
+4)MySql code:  
 
-  Select Vehicle_type, count(Vehicle_type)
-  from car.car_sales
-  group by Vehicle_type
+  Select Vehicle_type, count(Vehicle_type)  
+  from car.car_sales  
+  group by Vehicle_type  
   
   
 Below is the Tableau file that I have made:
