@@ -1,7 +1,7 @@
 # Car-Sales-Analysis
 
-This is the Car sales data set which include information about different cars . This data set is being taken from the Analytixlabs for the purpose of analysis.
-I uses MySql to develop some queries in order to do the analysis. After that, I used Tableau to produce a chart for the ease of analysis.
+This is the Car sales data set which include information about different cars. It is available to download from www.kaggle.com This data set is being taken from the Analytixlabs for the purpose of analysis.
+I used MySql queries in order to do the analysis as well as create a visualization chart by using Tableau.
 
 These are the questions that I came up with for the analysis.
 1) Among all the manufacturer, which manufacture has the most sale in the industry?
